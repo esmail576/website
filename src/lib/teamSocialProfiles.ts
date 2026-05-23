@@ -4,7 +4,7 @@ export type SocialProfile = {
   detail?: string;
 };
 
-export type SocialPlatform = "linkedin" | "whatsapp";
+export type SocialPlatform = "linkedin" | "WhatsApp";
 
 /** Per-founder links — replace `#` placeholders when URLs are ready. */
 export const teamSocialProfiles: Record<SocialPlatform, SocialProfile[]> = {
@@ -20,7 +20,7 @@ export const teamSocialProfiles: Record<SocialPlatform, SocialProfile[]> = {
       detail: "LinkedIn",
     },
   ],
-  whatsapp: [
+  WhatsApp: [
     { name: "Esmail Shabbir",href: "https://wa.me/97337121297", detail: "+973 37121297"},
     { name: "Fazil Shahbaz", href: "https://wa.me/97334543703", detail: "+973 34543703" },
   ],
