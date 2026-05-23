@@ -21,7 +21,7 @@ export const teamSocialProfiles: Record<SocialPlatform, SocialProfile[]> = {
     },
   ],
   whatsapp: [
-    { name: "Esmail Shabbir", href: "https://wa.me/97334543703", detail: "+973 34543703" },
-    { name: "Fazil Shahbaz", href: "https://wa.me/97337121297", detail: "+973 37121297" },
+    { name: "Esmail Shabbir",href: "https://wa.me/97337121297", detail: "+973 37121297"},
+    { name: "Fazil Shahbaz", href: "https://wa.me/97334543703", detail: "+973 34543703" },
   ],
 };
