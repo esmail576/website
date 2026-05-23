@@ -1,0 +1,20 @@
+# Global crawl rules
+User-agent: *
+Allow: /
+
+# Block common non-SEO utility endpoints if they exist
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*?*utm_
+Disallow: /*?*fbclid=
+
+# Bot-specific override for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Canonical discovery hints
+Host: www.siyahabh.com
+Sitemap: https://www.siyahabh.com/sitemap.xml
